@@ -1,0 +1,26 @@
+/*---Active Class---*/
+.overlay--active{
+    opacity: 100%;
+    visibility: visible;
+}
+
+.mobile-nav--open{
+    right:0;
+}
+
+.shopping-cart-mobile--open{
+    left:0;
+}
+.submenu--open{
+    height:auto;
+    opacity: 100%;
+    visibility:visible;
+    display: flex;
+}
+
+.nav-submenu-controller--active{
+    color:#FDBA74;
+}
+.product-rate-star--active{
+    color:#FACC15;
+}
