@@ -270,7 +270,7 @@
             </svg>
         </div>
         <!--Mobile Nav-->
-        <div class="mobile-nav block absolute h-screen overflow-y-scroll top-0 bottom-0 -right-[100%] w-64 bg-white dark:bg-zinc-700 shadow-normal z-50 px-4 py-3 transition-all" data-active="mobile-nav--open">
+        <div class="mobile-nav block absolute h-screen overflow-y-scroll top-0 bottom-0 -right-[100%] w-64 bg-white dark:bg-zinc-700 shadow-normal z-50 px-4 py-3 transition-all" data-active="mobile-nav--open" style="position: fixed;overflow-y: auto;">
             <!--Nav Header-->
             <div class="flex items-center justify-between border-b border-b-gray-100 dark:border-b-white/10 pb-5 mb-6">
                 <div class="text-orange-200 flex items-center gap-x-3.5">
@@ -387,7 +387,7 @@
             </svg>
         </div>
         <!--Mobile Shopping Cart-->
-        <div class="shopping-cart-mobile flex flex-col absolute h-screen top-0 bottom-0 -left-[100%] w-64 bg-white dark:bg-zinc-700 shadow-normal z-50 px-4 pt-5 pb-8 transition-all" data-active="shopping-cart-mobile--open">
+        <div class="shopping-cart-mobile flex flex-col absolute h-screen top-0 bottom-0 -left-[100%] w-64 bg-white dark:bg-zinc-700 shadow-normal z-50 px-4 pt-5 pb-8 transition-all" data-active="shopping-cart-mobile--open" style="position: fixed !important;">
             <!--Cart Header-->
             <div class="flex items-center justify-between border-b border-b-gray-100 dark:border-b-white/10 pb-5">
                 <div class="close-shopping-cart">
@@ -1738,7 +1738,7 @@
         </div>
     </footer>
     <!--Overlay-->
-    <div class="overlay"></div>
+    <div class="overlay" style="position: fixed; !important"></div>
     <!--Import Packages-->
     <script type="application/javascript" src="Scripts/swiper-bundle.min.js" defer></script>
     <!--Import Local Scripts-->
